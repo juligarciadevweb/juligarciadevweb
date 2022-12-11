@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+    <script>
+        var nombres = ["Nicolas",
+                        "Franco",
+                        "Alejandro",
+                        "Gorila",
+                        "Florencia",
+                        "Ricardo",
+                        "Paula",
+                        "Guillermo",
+                        "Luciano",
+                        "Alvaro",
+                        "Camila",
+                        "Agustina",
+                        "Valentina",
+                        "Esteban"]
+
+        console.log(nombres)
+        localStorage.setItem('agenda', JSON.stringify(nombres))
+        var nombres = localStorage.getItem('myArray')
+
+        function guardar(){
+        var nom = document.getElementById("nom").value;
+        console.log(nom)
+        }
+
+    </script>
+    <style>
+        body{
+            background-color: rgb(85, 22, 201);
+    }
+
+        button{
+            padding: 10px;
+    }
+
+    input{
+        padding: 10px;
+    }
+
+    footer{
+        text-align: right;
+    }
+
+    </style>
+</head>
+<body>
+    <main>
+<div class="container">
+     <input type="text" id="nom" placeholder="Ingrese su nombre">  
+     <button onclick="guardar()" type="button">Guardar en la agenda</button> 
+</div>
+    </main>
+    <footer>
+        <p>Realizado por Julian Garcia</p>
+    </footer>
+</body>
+</html>
