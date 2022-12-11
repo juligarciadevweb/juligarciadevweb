@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios semanales</title>
+    <link rel="shortcut icon" href="Jg.jpg" type="image/x-icon">
+    <style>
+        *{
+            background-color: darkblue;
+            font-size: 30px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        h1{ 
+            padding: 10px 15px 10px 15px;
+            text-align: center;
+            background-color: white;
+            color: black;
+            border: 4px;
+            border-color: cadetblue;
+        }
+        table {
+            margin:0 auto;
+            width: 60%;
+            text-align: center;
+            background-color: azure;
+        }
+        td{
+            background-color: darkblue;
+            border: 6px solid aquamarine;
+            color: white;
+        }
+        th{
+            background-color: brown;
+            background-color: black;
+            border: 8px thick darkblue;
+            color: darkviolet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <p><h1>Rutina semanal</h1></p>
+    </header>
+    <main>
+        <table>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <th>7:00</th>
+                <td colspan="5">Despertarme</td>
+                <td colspan="5" rowspan="3">Dormir</td>
+            </tr>
+            <!--Colspan al lado
+            Rowspan abajo, ponemos la cantidad de lugares final-->
+            <tr>
+                <th>8:00</th>
+                <td colspan="5">Bañarme</td>
+            </tr>
+            <tr>
+                <th>8:30</th>
+                <td>Estudiar C#</td>
+                <td>Repasar Geometria analitica</td>
+                <td>Practicar Phyton</td>
+                <td>Clase de algoritmos y estructura de datos</td>
+                <td>Clase de ingenieria y sociedad</td>
+            </tr>
+            <tr>
+                <th>10:00</th>
+                <td colspan="5">Desayunar</td>
+                <td colspan="2">Despertarme</td>
+            </tr>
+            <tr>
+                <th>11:00</th>
+                <td rowspan="2">Curso de sql</td>
+                <td colspan="3" rowspan="2">Practica de voley</td>
+                <td rowspan="2">Clase de consulta de analisis matematico</td>
+                <td rowspan="3">Trabajar en mi pagina web</td>
+                <td rowspan="6">Visitar a mi abuela</td>
+            </tr>
+            <tr>
+                <th>12:00</th>
+            </tr>
+            <tr>
+                <th>14:00</th>
+                <td colspan="3">Clase de laboratorio de fisica I</td>
+                <td colspan="2">Clase de programacion I</td>
+            </tr>
+            <tr>
+                <th>15:40</th>
+                <td colspan="5">Almuerzo con mis compañeros</td>
+                <td>Tomar un helado</td>
+            </tr>
+            <tr>
+                <th>16:30</th>
+                <td colspan="3" rowspan="3">Clase de arquitectura</td>
+                <td colspan="2" rowspan="3">Laboratorio de programacion</td>
+                <td>Caminar</td>
+            </tr>
+            <tr>
+                <th>17:30</th>
+                <td>Bañarme</td>
+            </tr>
+            <tr>
+                <th>18:00</th>
+                <td>Lavar mi ropa</td>
+                <td rowspan="3">Futbol con mis amigos</td>
+            </tr>
+            <tr>
+                <th>20:00</th>
+                <td colspan="5" rowspan="3">Hacer pulseras para vender</td>
+                <td rowspan="5">Cena con mi mejor amiga</td>
+            </tr>
+            <tr>
+                <th>21:00</th>
+            </tr>
+            <tr>
+                <th>22:00</th>
+                <td rowspan="3">Cena con mis padres</td>
+            </tr>
+            <tr>
+                <th>23:00</th>
+                <td colspan="4">Leer un libro</td>
+                <td>Hacer ejercicio fisico</td>
+            </tr>
+            <tr>
+                <th>1:00</th>
+                <td colspan="5">Dormir</td>
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
