@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <style>
+        h1{
+            text-align: center;
+            text-emphasis: unset;
+            text-transform: uppercase;
+            text-decoration: underline blue;
+            color: cadetblue;
+        }
+        
+        button{
+            background: transparent;
+            border: 8px solid red;
+            border-radius: 3px blue;
+        }
+
+        .texto{
+            color: red;
+            font-size: 25px;
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        window.onload = iniciar
+    
+    function iniciar(){
+        var btnCalcular = document.getElementById("btnCalcular")
+        btnCalcular.addEventListener("click", clickBtnCalcular)
+    }
+
+    function clickBtnCalcular(){
+        var txtPeso = document.getElementById("txtPeso")//Aqui estoy trayendo el elemento html
+        var peso = txtPeso.value //Aqui estoy obteniento el valor de esa variable
+        alert("Su peso es " + peso) //Peso es la variable mostrando el resultado
+        var txtAltura = document.getElementById("txtAltura")
+        var altura = txtAltura.value
+        alert("Su altura es " + altura) 
+        let imc = peso / (altura * altura)
+        alert("El indice de masa corporal es " + Math.round (imc))
+    }
+    </script>
+</head>
+<body>
+    <p><h1>Calculadora IMC</h1></p>
+    <form action="">
+    <label for="" class="texto">Peso:</label><input type="text" name="" id="txtPeso">
+    <br>
+    <label for="" class="texto">Altura:</label><input type="text" name=" " id="txtAltura">
+    <button id="btnCalcular">Calcular</button>
+    <br><br>
+    <center>
+        <img src="imcim.png" alt="400">
+    </center>
+    </form>   
+</body>
+</html>
