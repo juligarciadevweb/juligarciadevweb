@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo practico n8</title>
+    <style>
+      h1{
+    text-align: center;
+}
+.box{
+    display: flex;
+justify-content: center;
+background-color: grey;
+
+}
+.box div{
+    background-color: aqua;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    flex-direction:row
+}
+.box2{
+    display: flex;
+    justify-content:right;
+    background-color: grey;
+}
+.box2 div{
+    background-color: aqua;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    flex-direction:row
+}
+.box3
+{
+    display: flex;
+    justify-content:space-between;
+    background-color: grey;
+}
+.box3 div{
+    background-color: aqua;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    flex-direction:row;
+}
+
+.box44{
+    display: flex;
+    justify-content:space-around;
+    background-color: grey;
+}
+
+.box44 div{
+    background-color: aqua;
+    border-style: solid;
+    padding: 10px;
+    margin: 10px;
+    flex-direction:row;
+}
+
+.boxifive{
+    display: flex;
+    background-color: grey;
+}
+
+.boxifive div{
+    background-color: aqua;
+    border-style: solid;
+    padding: 10px;
+    margin: 0px;
+    flex-direction:row;
+    flex-grow: 1;
+}
+
+.sextacaja{
+    display: flex;
+    background-color: grey;
+    flex-direction: column;
+}
+
+.sixforlife div{
+    background-color: aqua;
+    border-style: solid;
+    padding: 10px;
+    margin: 0px;
+    flex-grow: 1;
+    width: 400px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <p><h1>Flex box alineado al centro</h1></p>
+    </header>
+    <div class="box"> 
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+    </div>
+    <h1 id="der">Flex box alineado a la derecha</h1>
+    <div class="box2">
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+    </div>
+    <h1 id="espac">Flex box espaciado entre items</h1>
+    <div class="box3">
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+    </div>
+    <h1 >Flex box espaciado alrededor items</h1>
+    <div class="box44">
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+    </div>
+    <h1 >Flex box items al 100%</h1>
+    <div class="boxifive">
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+    </div>
+    <h1>Flex box alineado vertical</h1>
+    <div class="sixforlife">
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+        <div>Enlace1</div>
+    </div>
+</body>
+</html>
