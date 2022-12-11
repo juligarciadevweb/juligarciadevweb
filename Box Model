@@ -1,0 +1,78 @@
+<!--CONSIGNA-->
+
+<!--Crear una página html con 4 párrafos cualquiera (use lorem para cada uno) y aplique los siguientes estilos:
+1er parrafo, color de fuente #2d6921, borde de 3px dotted y color #d66f0f, anchura de 500px, fuente en negrita, relleno en los cuatro lados de 20px, texto alineado a la derecha y un margen inferior de 100px.
+2do parrafo, borde de 3px sólido y color azul, anchura 500px, centrado automáticamente, relleno a los cuatro lados de 50px y la fuente en cursiva.
+3er párrafo, anchura del 30%, borde de 6px outset y color #666, relleno a los cuatro lados de 10px, texto justificado y un interlineado de 30px.
+4to párrafo, anchura del 75%, borde superior de 3px sólido y color #f0377b.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boxmodel</title>
+  <style>
+    #parrafo0{
+    color: #2d6921;
+    border: 3px dotted #d66f0f;
+    width: 500px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+#parrafo01{
+    border: 3px blue solid;
+    width: 500px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+   font-family: sans-serif;
+   justify-content: center;
+}
+
+#parrafo022{
+    width: 30%;
+    border: 6px outset #666;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#parrafo444{
+    width: 75%;
+    border-top: 3px solid #f0377b; ;
+}
+  </style>  
+</head>
+<body>
+   <p id="parrafo0"><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, debitis, mollitia explicabo magnam quia
+      obcaecati ratione soluta sit ipsa recusandae perferendis quibusdam illo alias. Nobis eveniet libero rerum ad
+      nam!</b>
+  </p>
+  <center>
+  <p id="parrafo01"><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore doloribus explicabo quo eos sint voluptate
+      corrupti nesciunt quasi, optio sed expedita voluptatibus consequuntur sit minima, repudiandae vitae nam doloremque
+      ea.</i>
+  </p>
+  </center>
+  <p id="parrafo022">
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum ex consequuntur id in veniam beatae, quis
+    aspernatur blanditiis pariatur perferendis nihil. Dolorem atque quia animi temporibus impedit beatae suscipit
+    delectus!
+  </p>
+  <p id="parrafo444">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, magnam eos! Corrupti laboriosam cupiditate fugit
+    nihil earum id voluptas dolore, officiis amet maiores eaque? Dolorum recusandae nobis reprehenderit enim sint!
+  </p>
+</body>
+<footer>
+  <a>Realizado por Juli</a>
+</footer>
+</html>
