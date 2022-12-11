@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP7</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+#Contenedor{
+    width: 1164px;
+    background-color: white;
+    clear: both;
+    }
+
+body{
+    background-color: #3a3d47 ;
+    width: 1164px;
+    margin: 20px auto;
+    display: block;
+}
+
+header{
+    background-color:  #1551a1 ;
+    width: 1164px;
+    height: 150px;
+    float: left;
+    display: block;}
+    #logo{
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 280px;
+        padding: 20px;
+}
+
+ul{
+    position: absolute;
+    top: 70px;
+    left: 750px;
+    font-size: 15px;    
+}
+
+nav>ul>li{    
+    float: right;
+    list-style: none;
+    padding: 10px 10px;
+    width: 10;
+    border-style: solid;
+    border-color: white;
+    }
+
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+
+h1{
+    color: #ff7600;
+    text-align: center;
+}
+
+footer{
+    width: 1164px;
+    clear: both;
+    background-color: #062348;
+}
+
+article{
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+article:hover{
+    opacity: .5;
+}
+
+#acceder{
+    font-size: 20px;
+    background-color:#1551a1;
+    color: white;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 10px;
+}
+
+#servicio{
+    width: 362px;
+}
+
+h2{
+    background-color:#1551a1;
+    color: white;
+    padding: 25px;
+}
+
+#logomec{
+    padding: 10px;
+    position: relative;
+    left: 150px;
+}
+
+#parrafo{    
+    text-align: left;
+    width: 50%;
+    color: white;
+}
+
+.redes{
+    position: absolute;
+    left: 1100px;
+    top: 1160px;
+    border-style:inherit;
+}
+
+#tituloredes{
+    text-align: center;
+    color: white;
+}
+
+    </style>
+</head>
+<body>
+    <div id="Contenedor">
+        <header>
+        <img src= "tp7img/logo.png" id="logo" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="">Noticias</a></li>
+                    <li><a href="">Servicios</a></li>
+                    <li><a href="">Nasotros</a></li>
+                    <li><a href="">Inicio</a></li>
+                </ul>
+            </nav>
+         </header>
+         <main>            
+            <img src="tp7img/slider01.jpg" alt="">
+                    <h1>BIENVENIDOS A TU MECANICA DE CONFIANZA</h1>
+            <article>
+                    <img src="tp7img/servicio01.jpg" id="servicio">
+                <h2>SERVICIO 01</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, saepe molestias! Id nemo facilis ipsa vero quasi neque quidem perspiciatis? Nulla dolorum saepe ipsa iste consectetur itaque natus voluptatem et.</p>
+                <button id="acceder">ACCEDER</button>
+            </article>
+            <article>
+                    <img src="tp7img/servicio02.jpg" id="servicio">
+                <h2>SERVICIO 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, saepe molestias! Id nemo facilis ipsa vero quasi neque quidem perspiciatis? Nulla dolorum saepe ipsa iste consectetur itaque natus voluptatem et.</p>
+                <button id="acceder">ACCEDER</button>
+            </article>
+            <article>
+                    <img src="tp7img/servicio03.jpg" id="servicio">
+                <h2>SERVICIO 03</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, saepe molestias! Id nemo facilis ipsa vero quasi neque quidem perspiciatis? Nulla dolorum saepe ipsa iste consectetur itaque natus voluptatem et.</p>
+                <button id="acceder">ACCEDER</button>
+            </article>
+         </main>
+        <footer>
+            <div>
+                <img src="tp7img/logo.png" id="logomec">
+                    <p id="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit explicabo nam dolores iure libero quo reiciendis beatae labore provident nemo rem laudantium voluptatum, expedita in maiores, assumenda sapiente consequatur quia.</p>
+               </div>
+                <div class="redes">
+                    <h3 id="tituloredes">SEGUINOS EN</h3>
+                        <img src="tp7img/twitter.png" alt="twitter">
+                        <img src="tp7img/youtube.png" alt="youtube">
+                        <img src="tp7img/instagram.png" alt="instagram">
+                    <img src="tp7img/behance.png" alt="behance">
+               </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>
