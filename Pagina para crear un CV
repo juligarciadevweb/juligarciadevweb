@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu propio curriculum</title>
+    <style>
+
+      *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: cornflowerblue;
+        letter-spacing: 2pt;
+        text-align: center;
+        text-decoration: solid;
+      }
+
+    h1{
+        text-align: center; 
+        text-decoration: underline black;   
+    }
+
+    .idiomaticos{
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+        font-size: 25px;
+  }
+
+  .laborales{
+      color: #000;
+      text-align: center;
+      text-decoration: underline;
+  }
+
+  h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 25px;
+  }
+
+  .cursosc{
+      color: #000;
+  }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p><h1>Formulario Curriculum Vitae</h1></p>
+    </header>
+    <main>
+    <form action="" method="get">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="Nombre" id="Nombre" placeholder="Su nombre es...">
+        <br>
+        <br>
+    <label for="Apellido">Apellido:</label>
+    <input type="text" name="Apellido" id="Apellido" placeholder="Su apellido es...">
+        <br>
+        <br>
+    <label for="Edad">Edad:</label>
+    <input type="number" name="Edad" id="Edad" min="18" max="100">
+        <br>
+        <br>
+    <label for="Telefono">Telefono:</label>
+        <input type="tel" id="Telefono" name="Telefono">
+        <br>
+        <br>
+    <label for="Correo electronico">Correo electronico:</label>
+    <input type="email" name="Correo electronico" id="Correo electronico" placeholder="alguien@example.com.ar">
+        <br>
+        <br>
+    <label for="Foto">Foto del solicitante:</label>
+        <input type="file" name="Foto">
+        <br>
+        <br>
+    <label>
+        <p>Pais de origen:</p>
+        <input list="Pais de origen">
+    </label>
+        <datalist id="Pais de origen">
+            <option value="Argentina"></option>
+            <option value="Brasil"></option>
+            <option value="Uruguay"></option>
+            <option value="Bolivia"></option>
+            <option value="Paraguay"></option>
+            <option value="Chile"></option>
+            <option value="Venezuela"></option>
+        </datalist>
+    <br>   
+    <br>
+    <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+        <input type="date" name="Fecha de nacimiento" id="Fecha de nacimiento">
+        <br>
+        <br>
+    <label for="Sexo">Sexo:</label>
+        <legend>Identifique su genero</legend>
+        <input type="radio" name="Sexo" id="M">Masculino
+        <input type="radio" name="Sexo" id="F">Femenino
+        <br>
+        <br>
+    <label for="discapacidad">¿Posee algun tipo de discapacidad fisica o mental?</label>
+        <input type="radio" name="discapacidad" id="Si">Si
+        <input type="radio" name="discapacidad" id="No">No
+        <br>
+    <label>
+    <p><h2 class="idiomaticos">Niveles idiomaticos</h2></p>
+        <p>Nivel de frances:</p>
+        <input list="Nivel de frances">
+    </label>
+        <datalist id="Nivel de frances">
+            <option value="Nulo"></option>
+            <option value="Basico"></option>
+            <option value="Alto"></option>
+            <option value="Avanzado"></option>
+        </datalist>
+    <label>
+        <p>Nivel de ingles:</p>
+        <input list="Nivel de ingles">
+    </label>
+        <datalist id="Nivel de ingles">
+            <option value="Nulo"></option>
+            <option value="Basico"></option>
+            <option value="Alto"></option>
+            <option value="Avanzado"></option>
+        </datalist>
+    <label>
+        <p>Nivel de aleman:</p>
+        <input list="Nivel de aleman">
+    </label>
+        <datalist id="Nivel de aleman">
+            <option value="Nulo"></option>
+            <option value="Basico"></option>
+            <option value="Alto"></option>
+            <option value="Avanzado"></option>
+        </datalist>
+    <br>
+    <br>
+    <label for="Experiencia laboral previa">Experiencia laboral previa:</label>
+        <br>
+    <textarea name="Experiencia lboral previa" id="Experiencia laboral previa" cols="30" rows="10" 
+    placeholder="Cuentanos un poco de tu experiencia laboral previa al momento de escribir este documento y solicitar este empleo"></textarea>
+    <br>
+    <br>
+    <label for="Titulo secundario">Titulo de educacion secundaria:</label>
+        <input type="file" name="titulo secundario" id="titulo secundario">
+        <br>
+        <br>
+    <label for="cursos cortos" name="cursos"><h2>Cursos cortos realizados</h2></label>
+        <br> 
+        <textarea name="cursos" class="cursosc" cols="30" rows="10" placeholder="En caso de haber hecho algún curso
+        (sea del rubro que sea) anota aqui la fecha de inicio, el id del certificado y la plataforma por la cual lo realizaste"></textarea>
+        <br>
+        </form>
+    </main>
+</body>
