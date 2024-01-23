@@ -18,7 +18,7 @@ or <a href="mailto:julig5855@gmail.com.com"><b>email</b></a> me
 
 <br><br>
 
-- :school: I am a `Junior` at National Technological University, Tucuman Regional Faculty.
+- :school: I am a `Junior` at Universidad tecnologica nacional, facultad regional Tucuman.
 - :trophy: .
 - :technologist: I love using Software as a solution for every `Problem`.
 - :computer: I am a competitive programmer at `Codeforces`, `Atcoder`, `Leetcode`, `Codechef`, `Google Contests`.
