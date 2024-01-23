@@ -19,50 +19,33 @@
   <!--- :boom: You can visit [MY WEBSITE](https://cutt.ly/Ahmed_Hossam_Website).
 <br>
 
-### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Programming_Languages.gif?raw=true" width = 50px>  </picture> Programming languages
+<div align="center">
+<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜/>! <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px"></h2>
+</div>
 
-<p align="center"> 
-  &emsp; 
-  <a href="https://www.cprogramming.com/" target="_blank"> 
-    <img alt="C" src="https://img.shields.io/badge/C%20-%232370ED.svg?style=plastic&logo=c&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://www.w3schools.com/cpp/" target="_blank"> 
-    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?style=plastic&logo=c%2B%2B&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=plastic&logo=javascript&logoColor=black">
-   </a>
-  &emsp;
-  <a href="https://www.java.com" target="_blank"> 
-    <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?style=plastic&logo=java&logoColor=white">
-  </a>
-  &emsp;
-   <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?style=plastic&logo=python&logoColor=white">
-  </a>
-</p>
+<div align="center" width="50">
 
-### <picture> <img src = "https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/Front_End.gif?raw=true" width = 50px>  </picture> Frontend Development
-<p align="center"> 
-  &emsp; 
-  <a href="https://www.w3.org/html/" target="_blank"> 
-   <img alt="HTML" src="https://img.shields.io/badge/HTML5%20-%23E34F26.svg?style=plastic&logo=html5&logoColor=white">
-  </a>   
-  &emsp;
-  <a href="https://www.w3schools.com/css/" target="_blank">
-    <img alt="CSS" src="https://img.shields.io/badge/CSS%20-%231572B6.svg?style=plastic&logo=css3&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/react-%2361DAFB.svg?style=plastic&logo=React&logoColor=black">
-  </a>
-  &emsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?style=plastic&logo=javascript&logoColor=black">
-   </a>
-</p>
+<img src="https://i.imgur.com/dTYwdG1.gif" alt="Welcome!" width="300"/>
+
+</div>
+
+<div align="center">
+
+You have finally discovered my Github profile. <br>
+Please feel free to clone/fork projects, raise issues and submit PRs if you think something could be better. <br>
+Ask me anything <a href="https://github.com/ABSphreak/ABSphreak/issues/new"><b>here</b></a><br>
+or <a href="mailto:absphreak@outlook.com"><b>email</b></a> me
+
+<i>Happy Coding!</i> 😊
+
+</div>
+
+<div align="center">
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=ABSphreak&include_all_commits=true&count_private=true&show_icons=true&line_height=20&title_color=7A7ADB&icon_color=2234AE&text_color=D3D3D3&bg_color=0,000000,130F40" alt="ABSphreak's Github Stats">
+
+</br>
+
 
 
 
