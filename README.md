@@ -16,7 +16,7 @@
 - :student: I’m currently learning `Computer systems engineering` and `University degree in programming`.
 - :nerd_face: Always `learning new things and updating based on the demands of the labor market`.
   <!-- :thinking: I’m currently open for a new `job opportunity`, this is [MY RESUME](http://lnkiy.in/Ahmed_Hossam_Resume).
-  <!--- :boom: You can visit [MY WEBSITE](https://cutt.ly/Ahmed_Hossam_Website).
+  <!--- :boom: You can visit [MY WEBSITE](https://cutt.ly/Ahmed_Hossam_Website).-->
 <br>
 
 <div align="center">
