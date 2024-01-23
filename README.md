@@ -28,6 +28,18 @@ or <a href="mailto:julig5855@gmail.com.com"><b>email</b></a> me
   <!--- :boom: You can visit [MY WEBSITE](https://cutt.ly/Ahmed_Hossam_Website).-->
 <br>
 
+## Connect with Me
+
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/juli%C3%A1n-garc%C3%ADa-42560a262/"><img alt="Linkedin" title="Julian Garcia Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://github.com/juligarciadevweb"><img alt="Github" title="Julian Garcia" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://www.facebook.com/profile.php?id=100077847136847"><img alt="Facebook" title="Julian Garcia fb" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"></a>
+  <a href="https://www.instagram.com/jgfrias35/"><img alt="Instagram" title="Julian Garcia Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+ </p>
+ <p align="center">
+  <a href="mailto:julig5855@gmail.com"><img alt="Gmail" title="Juli Garcia Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+ </p>
 
 
 
